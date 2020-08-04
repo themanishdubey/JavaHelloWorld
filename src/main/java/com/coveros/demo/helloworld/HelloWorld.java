@@ -9,6 +9,7 @@ public class HW {
     final DateTimeFormatter d = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
+    a(1,2,3);
     //Some wrong comment.
     System.out.println("Hello, World!! The current time is " + d.format(now));
   }
